@@ -1,0 +1,8 @@
+{
+	// List of python interpreters to try
+	// for now you need to 'pip install eyeball' manually
+	"pythons": [
+		"c:\\Python27\\pythonw.exe",
+		"c:\\Python33\\pythonw.exe",
+	],
+}
