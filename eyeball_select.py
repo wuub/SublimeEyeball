@@ -57,6 +57,8 @@ class EyeballSelectCommand(sublime_plugin.TextCommand):
         if len(self.view.sel()) == 0:
             for sel in selections:
                 self.view.sel().add(sel)
+        else:
+            self.view.show(self.view.sel())
 
     def handle(self, idx, sel):
         v = self.view
